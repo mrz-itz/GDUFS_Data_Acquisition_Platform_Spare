@@ -1,0 +1,27 @@
+请求URL API
+端点: /api/request_urls
+功能: 获取所有新闻的请求URL列表（分页）
+参数: page, size, search
+2. 标题 API
+端点: /api/titles
+功能: 获取所有新闻的标题列表（分页）
+参数: page, size, search
+3. 摘要 API
+端点: /api/abstracts
+功能: 获取所有新闻的摘要列表（分页）
+参数: page, size, search
+4. 正文 API
+端点: /api/bodies
+功能: 获取所有新闻的正文列表（分页）
+参数: page, size, search
+5. 发布时间 API
+端点: /api/pub_times
+功能: 获取所有新闻的发布时间列表（分页）
+参数: page, size, start_date, end_date
+6. 语言ID API
+端点: /api/language_ids
+功能: 获取所有新闻的语言ID列表（分页）
+参数: page, size, language_id
+7. 语言列表 API
+端点: /api/languages
+功能: 获取所有唯一语言ID列表
